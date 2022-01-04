@@ -1,0 +1,134 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "liveServer.settings.CustomBrowser": "microsoft-edge",
+  //above code existed before, below code was added to make TODO highlight to work
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "SRC",
+      "color": "#333",
+      "backgroundColor": "#3498db",
+      "border": "1px solid #3498db",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "FIX",
+      "color": "#333",
+      "backgroundColor": "#e67e22",
+      "border": "1px solid #e67e22",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "WARN",
+      "color": "#333",
+      "backgroundColor": "#e67e22",
+      "border": "1px solid #e67e22",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "PRIVATE",
+      "color": "#333",
+      "backgroundColor": "#e67e22",
+      "border": "1px solid #e67e22",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "KEY",
+      "color": "#333",
+      "backgroundColor": "#f1c40f",
+      "border": "1px solid #f1c40f",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "STATIC",
+      "color": "#333",
+      "backgroundColor": "#f1c40f",
+      "border": "1px solid #f1c40f",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c",
+      "border": "1px solid #e74c3c",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "IMPORTANT",
+      "color": "#333",
+      "backgroundColor": "#e74c3c",
+      "isWholeLine": true
+    },
+    {
+      "text": "NOTE",
+      "color": "#333",
+      "backgroundColor": "#2ecc71",
+      "border": "1px solid #2ecc71",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "USE",
+      "color": "#333",
+      "backgroundColor": "#2ecc71",
+      "border": "1px solid #2ecc71",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "CHANGE",
+      "color": "#333",
+      "backgroundColor": "#2ecc71",
+      "border": "1px solid #2ecc71",
+      "borderRadius": "2px"
+    }
+  ],
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false,
+  "cSpell.enableFiletypes": ["html"],
+  "workbench.editorAssociations": {
+    "*.html": "default"
+  },
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "tabnine.experimentalAutoImports": true,
+  // React mfee19
+  // "[javascript]": {
+  //   "editor.formatOnSave": false
+  // },
+  // "prettier.disableLanguages": ["js"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none"
+  // "files.autoSave": "afterDelay"
+}
